@@ -7,7 +7,7 @@ import org.elasticsearch.spark.rdd.EsSpark
 object Simple extends App{
   val conf = new SparkConf().setAppName("索引到es").setMaster("local")
   conf.set("es.index.auto.create", "true")
-  //conf.set("es.nodes", "192.168.40.3")
+  conf.set("es.nodes", "192.168.41.34")
   //conf.set("es.port", "9200")
 
   val  sc = new SparkContext(conf)
