@@ -6,7 +6,7 @@ import org.elasticsearch.spark.rdd.EsSpark
   */
 object JsonSimple extends App{
   val conf = new SparkConf().setAppName("Json to elasticsearch").setMaster("local")
-  conf.set("es.nodes", "192.168.41.34")
+  conf.set("es.nodes", "172.24.63.14")
 
   val json1 = """{"reason" : "business", "airport" : "SFO"}"""
   val json2 = """{"participants" : 5, "airport" : "OTP"}"""
