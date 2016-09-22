@@ -1,7 +1,7 @@
-import org.apache.spark.{SparkContext, SparkConf}
-import org.elasticsearch.spark.rdd.EsSpark
+package elasticsearch
 
-import scala.collection.mutable
+import org.apache.spark.{SparkConf, SparkContext}
+import org.elasticsearch.spark.rdd.EsSpark
 
 /**
   * Created by magneto on 16-6-29.

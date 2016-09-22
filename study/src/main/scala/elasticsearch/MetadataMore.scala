@@ -1,6 +1,8 @@
-import org.apache.spark.{SparkContext, SparkConf}
-import org.elasticsearch.spark.rdd.Metadata._
+package elasticsearch
+
+import org.apache.spark.{SparkConf, SparkContext}
 import org.elasticsearch.spark.rdd.EsSpark
+import org.elasticsearch.spark.rdd.Metadata._
 /**
   * Created by magneto on 16-7-1.
   */

@@ -1,3 +1,5 @@
+package elasticsearch
+
 import org.apache.spark.{SparkConf, SparkContext}
 import org.elasticsearch.spark._
 
